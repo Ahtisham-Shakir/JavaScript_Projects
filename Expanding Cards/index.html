@@ -5,8 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Expanding Cards</title>
+
+    <!-- Linking CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
+    <div class="container">
+        <div class="panel active" style="background-image: url('https://source.unsplash.com/ZXBPMnNVtlE');" id="1" onclick="expand(id)">
+            <h3>Explore the world</h3>
+        </div>
+        <div class="panel" style="background-image: url('https://source.unsplash.com/jFCViYFYcus');" id="2" onclick="expand(id)">
+            <h3>Forests</h3>
+        </div>
+        <div class="panel " style="background-image: url('https://source.unsplash.com/Bkci_8qcdvQ');" id="3" onclick="expand(id)">
+            <h3>Beautiful Mountains</h3>
+        </div>
+        <div class="panel " style="background-image: url('https://source.unsplash.com/L75D18aVal8');" id="4" onclick="expand(id)">
+            <h3>Hot Deserts</h3>
+        </div>
+        <div class="panel " style="background-image: url('https://source.unsplash.com/hGnufe6HUh8');" id="5" onclick="expand(id)">
+            <h3>Lakes</h3>
+        </div>
+    </div>
+
+    <!-- Linking JavaScript -->
+    <script src="script.js"></script>
 </body>
 </html>
